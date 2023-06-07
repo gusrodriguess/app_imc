@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #333;
+}
+
+.Form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Form label {
+  text-align: left;
+  display: block;
+}
+
+.Form input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+button {
+  background: #282c34;
+  color: #fff;
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
